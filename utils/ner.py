@@ -38,8 +38,10 @@ def ner_nltk(text, binary = False):
 
 def ner_spacy(text) :
     print(spacy.__version__)
-    assert spacy.util.is_package("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
+  # requested_spacy_model = 'en_core_web_sm'
+    requested_spacy_model = 'en_core_web_trf'
+    assert spacy.util.is_package(requested_spacy_model)
+    nlp = spacy.load(requested_spacy_model)
 
     doc = nlp(text)
     entities = []
