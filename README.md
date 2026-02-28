@@ -92,3 +92,9 @@ To help the tesseract to detect text in images, detection using another robust a
 - Better NER. Current method works quite well but has some flaws for eg. If the complete ocr-text is capitalized, it fails to classify names as it generally assumes names begin with a captial letter (Eg. Probiility of 'Alex' being classified as a name is higher than 'ALEX' or 'alex' </br>
 
 Note that with each improvement in the earlier task, output quality of latter task will be greatly improved
+
+
+## See also
+
+   [llm/models/API/img](https://github.com/ReneNyffenegger/temp-LLM/blob/255fe5c14eb6dd7cee2d2a7b2d70cda5f12910a8/models/API/img/clone-github-repos#L1)
+##
